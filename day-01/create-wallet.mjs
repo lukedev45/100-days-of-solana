@@ -8,9 +8,8 @@ import {
 // GenerateKeyPair
 
 const rpc = createSolanaRpc(devnet("https://api.devnet.solana.com"));
-const wallet = await generateKeyPairSigner();
+console.log("Wallet address: AZc48CPLxmdfqMk1hFnCy1pRjcdnFHo1suGNVVQNJgs4\n");
 
-console.log("Wallet address:", wallet.address);
 console.log("\n--- Go to https://faucet.solana.com/ and airdrop SOL to this address ---");
 console.log("--- Then run this script again with the same address to check the balance ---\n");
 
